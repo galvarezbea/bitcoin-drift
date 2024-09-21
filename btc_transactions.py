@@ -17,7 +17,7 @@ rpc_client = AuthServiceProxy(f"http://{rpc_user}:{rpc_pass}@{rpc_host}:8332", t
 start = 0
 end = rpc_client.getblockcount() + 1
 
-with open("tfm_btc_transactions.csv", "w", newline="") as csvfile:
+with open("btc_transactions.csv", "w", newline="") as csvfile:
     fieldnames = ["Block", "Transactions", "Block size", "Datetime"]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
