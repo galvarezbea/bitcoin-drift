@@ -8,7 +8,7 @@ Descarga de transacciones
 from bitcoinrpc.authproxy import AuthServiceProxy
 import csv, datetime
 
-# rpc_user and rpc_pass están configurados en el fichero bitcoin.conf
+# rpc_user y rpc_pass están configurados en el fichero bitcoin.conf
 rpc_user = [rpc_user] # MODIFICAR
 rpc_pass = [rpc_pass] # MODIFICAR
 rpc_host = "127.0.0.1"
