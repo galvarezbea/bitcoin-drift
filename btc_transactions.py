@@ -8,9 +8,9 @@ Descarga de transacciones
 from bitcoinrpc.authproxy import AuthServiceProxy
 import csv, datetime
 
-# rpc_user and rpc_password are set in the bitcoin.conf file
-rpc_user = "tfmbitcoin"
-rpc_pass = "bitcoin.TFM58"
+# rpc_user and rpc_pass están configurados en el fichero bitcoin.conf
+rpc_user = [rpc_user] # MODIFICAR
+rpc_pass = [rpc_pass] # MODIFICAR
 rpc_host = "127.0.0.1"
 rpc_client = AuthServiceProxy(f"http://{rpc_user}:{rpc_pass}@{rpc_host}:8332", timeout=120)
 
