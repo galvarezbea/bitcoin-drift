@@ -1,5 +1,5 @@
 # bitcoin-drift
-Análisis de Bitcoin en tiempo real: deriva de lo inmutable
+## Análisis de Bitcoin en tiempo real: deriva de lo inmutable
 
 btc_connect.py: Conexión al nodo local de Bitcoin.
 
