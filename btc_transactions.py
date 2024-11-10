@@ -7,10 +7,12 @@ Análisis de Bitcoin en tiempo real: deriva de lo inmutable
 Acceso al histórico de transacciones de la cadena de bloques. 
 Permite seleccionar el intervalo de bloques a consultar y habilita la descarga a fichero CSV.
 """
+
 # Importa la cadena de conección de btc_connect.py
 from btc_connect import btc_connect
 
 import csv, datetime
+
 
 # Conección al nodo local
 rpc_connection = btc_connect()
