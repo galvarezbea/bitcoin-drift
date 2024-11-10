@@ -9,6 +9,8 @@ Conexión al nodo local de Bitcoin.
 
 from bitcoinrpc.authproxy import AuthServiceProxy
 
+
+# Función que realiza la conexión
 def btc_connect():
     # rpc_user y rpc_pass están configurados en el fichero bitcoin.conf
     rpc_user = "[usuario]" # MODIFICAR
