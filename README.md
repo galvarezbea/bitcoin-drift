@@ -1,6 +1,8 @@
 # Análisis de Bitcoin en tiempo real: deriva de lo inmutable
 
-Descripción de la colección de scripts, que acompañan a la memoria y forman parte del sumario de productos obtenidos en el presente TFM.
+Descripción de la colección de scripts y Jupyter Notebooks, que acompañan a la memoria y forman parte del sumario de productos obtenidos en el presente TFM.
+
+**Scripts**
 
 * **btc_connect.py**: Conexión al nodo local de Bitcoin.
 
@@ -10,4 +12,6 @@ Descripción de la colección de scripts, que acompañan a la memoria y forman p
 Obtiene el número de bloque, el total de transacciones del bloque, su tamaño en bytes y la marca temporal de minado (con fecha, hora, minuto y segundo).
 Permite seleccionar el intervalo de bloques a consultar y habilita la descarga a fichero CSV.
 
+**Jupyter Notebooks**
 
+* **btc_transaction_drift_detector_ADWIN.ipynb**: Detección de derivas de concepto a partir del método matemático ADWIN, con salida gráfica.
