@@ -14,4 +14,4 @@ Permite seleccionar el intervalo de bloques a consultar y habilita la descarga a
 
 **Jupyter Notebooks**
 
-* **btc_transaction_drift_detector_ADWIN.ipynb**: Detección de derivas de concepto a partir del método matemático ADWIN, con salida gráfica.
+* **btc_transaction_ADWIN.ipynb**: Detección de derivas de concepto a partir del método matemático ADWIN, con salida gráfica.
