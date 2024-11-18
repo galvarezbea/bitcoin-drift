@@ -4,8 +4,10 @@ Descripción de la colección de scripts, que acompañan a la memoria y forman p
 
 * **btc_connect.py**: Conexión al nodo local de Bitcoin.
 
-* **btc_mempool.py**: Análisis de la mempool. Presenta por pantalla y escribe a un fichero CSV, a intervalos regulares, estadísticas del tamaño de transacciones alojadas en la mempool: media, varianza, mínimo, máximo. 
+* **btc_mempool_dump.py**: Análisis de la mempool. Presenta por pantalla y escribe a un fichero CSV, a intervalos regulares, estadísticas del tamaño de transacciones alojadas en la mempool: media, varianza, mínimo, máximo. 
 
-* **btc_transactions.py**: Acceso al histórico de transacciones de la cadena de bloques. Permite seleccionar el intervalo de bloques a consultar y habilita la descarga a fichero CSV.
+* **btc_transaction_dump.py**: Acceso al histórico de transacciones de la cadena de bloques.
+Obtiene el número de bloque, el total de transacciones del bloque, su tamaño en bytes y la marca temporal de minado (con fecha, hora, minuto y segundo).
+Permite seleccionar el intervalo de bloques a consultar y habilita la descarga a fichero CSV.
 
 
