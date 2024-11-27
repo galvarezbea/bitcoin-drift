@@ -14,6 +14,8 @@ Permite seleccionar el intervalo de bloques a consultar y habilita la descarga a
 
 **Jupyter Notebooks**
 
-* **btc_mempool_ADWIN.ipynb**: Detección de derivas de concepto en la mempool a partir del método matemático ADWIN, con salida gráfica.
+* **btc_mempool_count_ADWIN.ipynb**: Detección de derivas de concepto en el total de transacciones de la mempool por intervalo de tiempo, a partir del método matemático ADWIN, con salida gráfica.
+
+* **btc_mempool_mean_ADWIN.ipynb**: Detección de derivas de concepto en la media de transacciones de la mempool por intervalo de tiempo, a partir del método matemático ADWIN, con salida gráfica.
 
 * **btc_transaction_ADWIN.ipynb**: Detección de derivas de concepto en la cadena de bloques a partir del método matemático ADWIN, con salida gráfica.
