@@ -20,5 +20,5 @@ def btc_connect():
     
     rpc_url = f"http://{rpc_user}:{rpc_pass}@{rpc_host}:{rpc_port}"
     rpc_connection = AuthServiceProxy(rpc_url)
-    rpc_connection.__conn.timeout = 120 # Establece el tiempo de espera de la conexión en 120 segundos    
+    rpc_connection.__conn.timeout = 120 # Establece el tiempo de espera de la conexión en 120 segundos
     return rpc_connection    
